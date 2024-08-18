@@ -1,7 +1,7 @@
 # WALMART-SALES-FORECAST
 
-﻿# Walmart Sales Time Series Forecasting Using Machine and Deep Learning
- Time Series Forecasting of Walmart Sales Data using Deep Learning and Machine Learning
+﻿# Walmart Sales Time Series Forecasting Using Machine 
+ Time Series Forecasting of Walmart Sales Data using Machine Learning
 ## Blog of this Project
 ## Datasets
 **Walmart Recruiting - Store Sales Forecasting** downloaded from
@@ -40,7 +40,6 @@ https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
 - Random Forest Regression Model
 - K Neighbors Regression Model
 - XGBoost Regression Model
-- Custom Deep Learning Neural Network
 ## Data Preprocessing
 - ### **Handling Missing Values**
 	- CPI, Unemployment of features dataset had 585 null values.
@@ -111,27 +110,12 @@ https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
 - Learning Rate - 0.1
 - n_estimators - 100
 - `XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1, gamma=0, importance_type='gain', learning_rate=0.1, max_delta_step=0, max_depth=3, min_child_weight=1, missing=None, n_estimators=100, n_jobs=1, nthread=None, objective='reg:linear', random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None, silent=None, subsample=1, verbosity=1)`
-## Custom Deep Learning Neural Network Model
-- Deep Neural Network accuracy - 90.50328
-- Mean Absolute Error - 0.033255
-- Mean Squared Error - 0.003867
-- Root Mean Squared Error - 0.06218 
-- R2 - 0.9144106
-- Kernel Initializer - normal
-- Optimizer - adam
-- Input layer with 23 dimensions and 64 output dimensions and activation function as relu
-- 1 hidden layer with 32 nodes
-- Output layer with 1 node 
-- Batch Size - 5000
-- Epochs -100
 ## Comparing Models
 - Linear Regressor Accuracy - 92.280797
 - Random Forest Regressor Accuracy - 97.889071
 - K Neighbors Regressor Accuracy - 91.972603
 - XGBoost Accuracy - 94.211523
-- DNN Accuracy - 90.503287
 ## Citations
 - **Walmart Recruiting - Store Sales Forecasting**
 https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
 
-> Written with [StackEdit](https://stackedit.io/).
