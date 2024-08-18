@@ -5,15 +5,15 @@
 
 #### The motive of Walmart Time Series Forecast machine learning project , is typically to predict future values of a dataset based on historical data. For Walmart, this might involve predicting future sales, inventory levels, or demand for specific products. The primary goals could include:
 
-###### 	-1. **Optimizing Inventory Management:** Predicting future sales helps Walmart ensure that they stock the right amount of products, reducing both overstock and stockouts.
+1. **Optimizing Inventory Management:** Predicting future sales helps Walmart ensure that they stock the right amount of products, reducing both overstock and stockouts.
 
-###### 	-2. **Improving Supply Chain Efficiency:** By forecasting demand, Walmart can better manage its supply chain, ensuring timely deliveries and minimizing logistical costs.
+2. **Improving Supply Chain Efficiency:** By forecasting demand, Walmart can better manage its supply chain, ensuring timely deliveries and minimizing logistical costs.
 
-###### 	-3. **Enhancing Pricing Strategies:** Accurate forecasts allow Walmart to adjust pricing strategies dynamically based on expected demand.
+3. **Enhancing Pricing Strategies:** Accurate forecasts allow Walmart to adjust pricing strategies dynamically based on expected demand.
 
-###### 	-4. **Resource Allocation:** Walmart can better allocate resources like staffing, marketing efforts, and shelf space based on expected trends.
+4. **Resource Allocation:** Walmart can better allocate resources like staffing, marketing efforts, and shelf space based on expected trends.
 
-######  -5. **Strategic Planning:** Long-term forecasts assist in planning business strategies, such as opening new stores or expanding into new markets.
+5. **Strategic Planning:** Long-term forecasts assist in planning business strategies, such as opening new stores or expanding into new markets.
 
 ## Blog of this Project
 ## Datasets
