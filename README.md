@@ -79,42 +79,42 @@ https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
 - Dataset was splitted into 80% for training and 20% for testing
 - Target feature - Weekly_Sales 
 ## Linear Regression Model
-- Linear Regressor Accuracy - 92.28
-- Mean Absolute Error - 0.030057
-- Mean Squared Error - 0.0034851
-- Root Mean Squared Error - 0.059
-- R2 - 0.9228
-- `LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)`
+- Linear Regressor Accuracy - 92.391573
+- Mean Absolute Error - 0.029839
+- Mean Squared Error - 0.003389
+- Root Mean Squared Error - 0.058221
+- R2 - 0.0.923917
+- `LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None)`
 ## Random Forest Regression Model
-- Random Forest Regressor Accuracy - 97.889
-- Mean Absolute Error - 0.015522
-- Mean Squared Error - 0.000953 
-- Root Mean Squared Error - 0.03087 
-- R2 - 0.9788
+- Random Forest Regressor Accuracy - 97.891836
+- Mean Absolute Error - 0.015471
+- Mean Squared Error - 0.000939 
+- Root Mean Squared Error - 0.030646 
+- R2 - 0.978921
 - n_estimators - 100
 - `RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse', max_depth=None, max_features='auto', max_leaf_nodes=None, max_samples=None, min_impurity_decrease=0.0, min_impurity_split=None, min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=None, oob_score=False, random_state=None, verbose=0, warm_start=False)`
 ## K Neighbors Regression Model
-- KNeigbhbors Regressor Accuracy - 91.9726
-- Mean Absolute Error - 0.0331221
-- Mean Squared Error - 0.0036242
-- Root Mean Squared Error - 0.060202
-- R2 - 0.919921
+- KNeigbhbors Regressor Accuracy - 91.8176
+- Mean Absolute Error - 0.033361
+- Mean Squared Error - 0.0036454
+- Root Mean Squared Error - 0.0603774
+- R2 - 0.918368
 - Neighbors - 1
 - `KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski', metric_params=None, n_jobs=None, n_neighbors=1, p=2, weights='uniform')`
 ## XGBoost Regression Model
-- XGBoost Regressor Accuracy - 94.21152
-- Mean Absolute Error - 0.0267718
-- Mean Squared Error - 0.0026134
-- Root Mean Squared Error - 0.051121
-- R2 - 0.942115235
+- XGBoost Regressor Accuracy - 97.307579
+- Mean Absolute Error - 0.0197942
+- Mean Squared Error - 0.001199
+- Root Mean Squared Error - 0.0346343
+- R2 - 0.973076844
 - Learning Rate - 0.1
 - n_estimators - 100
 - `XGBRegressor(base_score=0.5, booster='gbtree', colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1, gamma=0, importance_type='gain', learning_rate=0.1, max_delta_step=0, max_depth=3, min_child_weight=1, missing=None, n_estimators=100, n_jobs=1, nthread=None, objective='reg:linear', random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=1, seed=None, silent=None, subsample=1, verbosity=1)`
 ## Comparing Models
-- Linear Regressor Accuracy - 92.280797
-- Random Forest Regressor Accuracy - 97.889071
-- K Neighbors Regressor Accuracy - 91.972603
-- XGBoost Accuracy - 94.211523
+- Linear Regressor Accuracy - 92.391573
+- Random Forest Regressor Accuracy - 97.891836
+- K Neighbors Regressor Accuracy - 91.8176
+- XGBoost Accuracy - 97.307579
 ## Citations
 - **Walmart Recruiting - Store Sales Forecasting**
 https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting
